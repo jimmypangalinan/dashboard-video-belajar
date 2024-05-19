@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffa500;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('./images/user-image.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffa500;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.courses {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.courses .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses h2 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.courses p {
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+}
+
+.categories ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.categories ul li {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffa500;
+    border-bottom: 2px solid transparent;
+}
+
+.categories ul li:hover, .categories ul li.active {
+    border-bottom: 2px solid #ffa500;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* background-color: #999; */
+}
+
+.course-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1px;
+    width: 360px;
+    padding: 10px;
+    text-align: left;
+}
+
+.course-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.course-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.course-item .instructor {
+    font-size: 12px;
+    color: #999;
+}
+
+.course-item .price {
+    font-size: 18px;
+    color: #ffa500;
+}

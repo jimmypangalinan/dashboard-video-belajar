@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F0F2F5;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+.hero {
+    background-image: url("./images/user-image.jpeg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.featured-courses {
+    padding: 50px 0;
+}
+
+.featured-courses h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured-courses p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: #4CAF50; */
+}
+
+.course {
+    width: 29%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.course h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.instructor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.instructor img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.instructor span {
+    font-size: 0.9em;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #FDBE18;
+}
+
+.price {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F0F2F5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #333;
+}
